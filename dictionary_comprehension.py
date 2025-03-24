@@ -7,4 +7,4 @@ grades = ['B', 'A', 'C', 'B']
 
 # using comprehension to create a dictionary
 
-student_grades = {student: grade for student, grade in zip(students, grades)}
+student_grades = {student: grade for student, grade in zip(students, grades)} 
