@@ -14,5 +14,8 @@ for option in options:
         continue
     valid_strings.append(option)
 
+# using list comprehension
+selected_string = [option for option in options if len(option) > 1 and option[0] == "a" and option[-1] == "y"]
 
+print(f"Selected strings: {selected_string}")
 
