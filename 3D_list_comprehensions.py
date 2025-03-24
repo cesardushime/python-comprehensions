@@ -26,3 +26,7 @@ for inner1_lst in lst:
             flattened.append(item)
 
 # print(flattened)
+
+# Using a list comprehension to flatten a 3D list
+flaten = [item for inner1_lst in mylist for inner2_lst in inner1_lst for item in inner2_lst]
+print(flaten)
